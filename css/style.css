@@ -1,15 +1,14 @@
 .pic {
  background-image: url("../img/picture2.jpg");
- height: 50vh;
+ height: 60vh;
  background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: cover;
 }
 h1 {
 	color: white;
-}
-h1 {
-	text-align: center;
+  text-align: center;
+  font-size: 150px;
 }
 
 .pic2{ 
@@ -29,3 +28,19 @@ width: 100%;
  	text-align: right;
  	text-align: -webkit-right;
  }
+ body{
+  background-color: #CDE77F;
+  color: white;
+  font-size: 15px;
+ .third-section{
+  background-image: url("../img/leopard-print.jpg");
+ }
+ .row{
+  height: 50vh; /* For X% screen height */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-section{
+  background-image: url("../img/greenyellow.jpg");
+}
